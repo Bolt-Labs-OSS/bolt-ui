@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ExampleApp from './features/example';
 import './styles/index.css';
 
 const App: React.FC = ({}) => {
@@ -17,6 +18,7 @@ const App: React.FC = ({}) => {
 				<code>./lib/hooks</code> directory. That same directory
 				contains our context system and helpers.
 			</p>
+			<ExampleApp />
 		</div>
 	);
 };
